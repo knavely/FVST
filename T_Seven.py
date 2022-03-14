@@ -66,7 +66,7 @@ t_sevens = all_T7()
 len(t_sevens)
 
 #find all T_7 that are not heavy
-lightT7s = [t for t in ti if not is_heavy(t, 7)]
+lightT7s = [t for t in t_sevens if not is_heavy(t, 7)]
 
 # light T_7 which we discovered
 snark = [(0, 2, 5),(0, 3, 5),(0, 4, 5), (1, 2, 4),(1, 2, 5),(1, 3, 4),(1, 3, 5),(2, 3, 6),(2, 4, 6),(2, 5, 6)]
