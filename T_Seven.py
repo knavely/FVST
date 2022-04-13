@@ -1,7 +1,7 @@
 from sage.all import *
 import itertools
 
-#We use sage and naughty to work will all tournaments of size 7 given
+#We use sage and naughty to work with all tournaments of size 7
 #these are given in matrix format (A), but we convert to lists of triangles (trips).
 
 def to_digraph_trips(A,n = 7):
